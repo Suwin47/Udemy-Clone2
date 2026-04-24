@@ -145,7 +145,7 @@ body {
 }
 
 .course-card {
-    flex-basis: 1;
+    flex-grow: 1;
     flex-basis: 20%;
     margin: 5px;
 
@@ -173,7 +173,7 @@ body {
     border: solid grey 2px;
     padding: 20px;
     flex-grow: 1;
-    flex-basis: 25%
+    flex-basis: 25%; 
 }
 
 .popular {
@@ -235,7 +235,7 @@ body {
 
 @media screen and (max-width:600px) {
     .course-card {
-        flex-basis: 40px;
+        flex-basis: 40%;
     }
     .categories{
         display: none;
@@ -245,5 +245,8 @@ body {
     }
     .navbar__s4{
         display: block;
+    }
+    .topics__container P{
+        flex-basis: 20%;
     }
 }
